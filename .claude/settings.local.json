@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Read(//usr/bin/**)"
+      "Read(//usr/bin/**)",
+      "Bash(git pull *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
     ]
   }
 }
